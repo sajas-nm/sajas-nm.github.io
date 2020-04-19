@@ -7,6 +7,7 @@
 html {
   scroll-behavior: smooth;
   transition: 0.3s;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,7 +16,6 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   background: #100e17;
-  overflow-x: hidden;
 }
 .container {
   width: 1200px;
