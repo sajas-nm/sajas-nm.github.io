@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Poppins:500&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +15,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   background: #100e17;
+  overflow-x: hidden;
 }
 .container {
   width: 1200px;
@@ -209,11 +211,10 @@ header a:hover {
   border-radius: 3px;
   transition: 0.3s;
 }
-.about-tag-flex{
+.about-tag-flex {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
 }
 .about-tag {
   border: 1px solid #4fa891;
