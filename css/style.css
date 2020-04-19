@@ -17,7 +17,6 @@ body {
   background: #100e17;
 }
 
-
 .container {
   width: 1200px;
   max-width: 100%;
@@ -231,10 +230,11 @@ header a:hover {
   color: #fff;
   font-weight: 700;
   font-size: 1rem;
-  letter-spacing: 0px;
+  letter-spacing: 2px;
   opacity: 0.8;
   cursor: pointer;
   margin-top: 35px;
+  text-transform: capitalize;
 }
 .btn:focus {
   outline: none;
@@ -342,6 +342,9 @@ footer a:hover {
   }
   .flex {
     flex-direction: column;
+  }
+  header {
+    padding: 35px 0;
   }
   .contact .box {
     /* text-align: center;  */
