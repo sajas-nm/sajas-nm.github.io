@@ -36,24 +36,24 @@ window.onscroll = () => {
   prevScrollPosition = currentScrollPosition;
 };
 
-document.getElementById("list1").onmouseover = () => {
-  document.getElementById("icon1").classList.add("is-hover");
-};
-document.getElementById("list1").onmouseout = () => {
-  document.getElementById("icon1").classList.remove("is-hover");
-};
-document.getElementById("list2").onmouseover = () => {
-  document.getElementById("icon2").classList.add("is-hover");
-};
-document.getElementById("list2").onmouseout = () => {
-  document.getElementById("icon2").classList.remove("is-hover");
-};
-document.getElementById("list3").onmouseover = () => {
-  document.getElementById("icon3").classList.add("is-hover");
-};
-document.getElementById("list3").onmouseout = () => {
-  document.getElementById("icon3").classList.remove("is-hover");
-};
+// document.getElementById("list1").onmouseover = () => {
+//   document.getElementById("icon1").classList.add("is-hover");
+// };
+// document.getElementById("list1").onmouseout = () => {
+//   document.getElementById("icon1").classList.remove("is-hover");
+// };
+// document.getElementById("list2").onmouseover = () => {
+//   document.getElementById("icon2").classList.add("is-hover");
+// };
+// document.getElementById("list2").onmouseout = () => {
+//   document.getElementById("icon2").classList.remove("is-hover");
+// };
+// document.getElementById("list3").onmouseover = () => {
+//   document.getElementById("icon3").classList.add("is-hover");
+// };
+// document.getElementById("list3").onmouseout = () => {
+//   document.getElementById("icon3").classList.remove("is-hover");
+// };
 const hamburger = document.getElementById("hamburger");
 const menu = document.getElementById("menu");
 hamburger.addEventListener("click", () => {

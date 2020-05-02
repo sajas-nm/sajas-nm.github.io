@@ -153,12 +153,30 @@ header {
 header .flex .im {
   padding: 8px 30px;
   border-radius: 20px;
-  background: #0bceaf;
+  border: 1px solid #0bceaf;
   color: #fff;
   font-weight: 700;
   border-bottom-left-radius: 0px;
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
+}
+
+span.wave {
+  animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;          /* Change to speed up or slow down */
+  animation-iteration-count: infinite;    /* Never stop waving :) */
+  transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
+  100% { transform: rotate(  0.0deg) }
 }
 header .flex h1 {
   text-transform: capitalize;
@@ -179,7 +197,7 @@ header ul {
   padding: 0;
   /* text-transform: capitalize; */
   letter-spacing: 1px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 header ul li {
   margin: 12px 0;
@@ -193,7 +211,7 @@ header ul li .ic {
 }
 header ul.social-icon a {
   padding: 7px 15px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 /* header ul.flex-start li {
   padding:15px 0;
@@ -235,7 +253,10 @@ header a:hover {
   cursor: pointer;
   margin-top: 35px;
   text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
 }
+
 .btn:focus {
   outline: none;
 }
