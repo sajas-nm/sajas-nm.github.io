@@ -328,7 +328,8 @@ header a:hover {
   display: flex;
   flex-direction: column;
   background-color: #202026;
-  /* margin-top: 45px; */
+
+  margin: 20px;
 }
 .portfolio-box img {
   max-width: 100%;
